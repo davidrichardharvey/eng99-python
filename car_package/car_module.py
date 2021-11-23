@@ -29,6 +29,10 @@ class Car:
         # self.current_speed = max(self.current_speed - delta, 0)
 
 
+class Car2:
+    pass
+
+
 if __name__ == "__main__":
     car = Car(180)
     car.accelerate(100)

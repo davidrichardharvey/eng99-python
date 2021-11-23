@@ -50,7 +50,11 @@ print("\nQ2b\n")
 
 # A2b:
 
-
+name = "david"
+for letter in name:
+    print(letter, alphabet_position(letter))
+    name += "."
+    print(name)
 
 print("\nQ2c\n")
 # Q2c: Create a function which turns this ID into a password. The function should subtract
@@ -58,7 +62,8 @@ print("\nQ2c\n")
 # e.g. f("bob") -> 1134 (because bob's id was 1141 and 1+1+4+1 = 7 so 1141 - 7 = 1134)
 
 # A2c:
-
+for digit in "429572349":
+    print(digit)
 
 
 # -------------------------------------------------------------------------------------- #
@@ -67,14 +72,18 @@ print("\nQ3a\n")
 # Q3a: Write a function which takes an integer as an input, and returns true if the number is prime, false otherwise.
 
 # A3a:
-
+def solution(i):
+    return int(i)
 
 
 print("\nQ3b\n")
 # Q3b: Now add some functionality to the function which does not error if the user inputs something other than a digit
 
 # A3b:
-
+def solution2(i):
+    # Check that i is just digits
+    return int(i)
+    # If not, print a warning message and return None
 
 
 # -------------------------------------------------------------------------------------- #

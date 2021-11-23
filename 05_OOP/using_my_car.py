@@ -1,4 +1,4 @@
-from car_module import Car
+from car_package.car_module import Car
 #
 c = Car(200)
 
