@@ -28,10 +28,15 @@ class Car:
             self._current_speed = 0
         # self.current_speed = max(self.current_speed - delta, 0)
 
-car = Car(180)
-car.accelerate(100)
-print(car.get_speed())
-car.accelerate(1000)
-print(car.get_speed())
-car.brake(13453453)
-print(car.get_speed())
+
+if __name__ == "__main__":
+    car = Car(180)
+    car.accelerate(100)
+    print(car.get_speed())
+    car.accelerate(1000)
+    print(car.get_speed())
+    car.brake(13453453)
+    print(car.get_speed())
+
+    print(car)
+
